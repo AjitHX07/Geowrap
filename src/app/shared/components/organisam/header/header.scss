@@ -1,0 +1,36 @@
+.geo-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 32px 50px;
+
+    &__icon {
+        width: 20%;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    &__list {
+        width: 60%;
+        
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+
+            .dot {
+                width: 4px;
+                height: 4px;
+                max-width: 4px;
+                border-radius: 50%;
+                background-color: black;
+            }
+        }
+    }
+
+
+}
